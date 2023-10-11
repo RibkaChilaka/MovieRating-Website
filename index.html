@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating Project using HTML and CSS</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!------------------Header--------------------->
+    <div id="header">
+        <div class="container">
+            <div>
+                <h1><img src="images/logo.jpg" class="logo">MOVIE WORLD</h1>
+                <p class="my-move">Welcome to the movie world</p>
+            </div>
+            <nav>
+                <ul id="sidemenu">
+                    <li class="login">Login</li>
+                    <li class="signup">Sign Up</li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <!-------------------Movies part--------------->
+    <div id="movies">
+        <div class="movie-container">
+            <div class="search-container">
+                <div class="movies-top">
+                    <div>
+                        <input type="text" placeholder="Search your favourite movie rating!" class="search">
+                        <i class="fa-solid fa-magnifying-glass search-symbol"></i>
+                    </div>
+                    <div>
+                        <p class="movie-rating active-links">Movies and it's rating! see the rating and enjoy your
+                            favourite
+                            movie!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movies-list">
+                <div class="movie-cards">
+                    <img src="images/toyStory.jpg" class="image">
+                    <h3>Toy Story (1995)</h3>
+                    <p>Adventure|Animation|Children|Comedy
+                        |Fantasy</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <img src="images/jumanji.jpg" class="image">
+                    <h3>Jumanji (1995)</h3>
+                    <p>Adventure|Children|Fantasy</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <img src="images/grumpierOldMen.jpg" class="image">
+                    <h3>Grumpier Old Men (1995)</h3>
+                    <p>Comedy|Romance</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <img src="images/waitingToExhale.jpg" class="image">
+                    <h3>Waiting to Exhale (1995)</h3>
+                    <p>Comedy|Drama|Romance</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <img src="images/fatheroftheBridePartII.jpg" class="image">
+                    <h3>Father of the Bride Part II (1995)</h3>
+                    <p>Comedy</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <img src="images/Heat.jpg" class="image">
+                    <h3>Heat (1995)</h3>
+                    <p>Action|Crime|Thriller</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <img src="images/Sabrina.jpg"  class="image">
+                    <h3>Sabrina (1995)</h3>
+                    <p>Comedy|Romance</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <img src="images/TomandHuck.jpg" class="image">
+                    <h3>Tom and Huck (1995)</h3>
+                    <p>Adventure|Children</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <img src="images/GoldenEye.jpg" class="image">
+                    <h3>GoldenEye (1995)</h3>
+                    <p>Action|Adventure|Thriller</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <img src="images/AmericanPresident,The(1995).jpg" class="image">
+                    <h3>American President, The (1995)</h3>
+                    <p>omedy|Drama|Romance</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">@copyright 2023 || Ribka </div>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
